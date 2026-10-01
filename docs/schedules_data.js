@@ -125,6 +125,56 @@ const SOTE_SCHEDULE = {
     },
 };
 
+const SOTE_LESSONS_SCHEDULE = {
+    "ap_kello": "9:00 - 11:00",
+    "ruokailu_kello": "11:00 - 11:45",
+    "ip1_kello": "11:30 - 13:00",
+    "ip2_kello": "13:15 - 14:30",
+    43: {
+        "ap_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: ÄI (Y166)",
+        "ip1_opettajat": "A-ryhmä: ÄI (Y166), B-ryhmä: EN (Y203)",
+        "ip2_opettajat": "A-ryhmä: EN (Y203), B-ryhmä: MA (Y168)"
+    },
+    44: {
+        "ap_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: ÄI (Y166)",
+        "ip1_opettajat": "A-ryhmä: ÄI (Y166), B-ryhmä: EN (Y203)",
+        "ip2_opettajat": "A-ryhmä: EN (Y203), B-ryhmä: MA (Y168)"
+    },
+    45: {
+        "ap_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: ÄI (Y166)",
+    },
+    46: {
+        "ap_opettajat": "A-ryhmä: ÄI (Y166), B-ryhmä: MA (Y168)",
+        "ip1_opettajat": "A-ryhmä: EN (Y203), B-ryhmä: ÄI (Y166)",
+        "ip2_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: EN (Y203)"
+    },
+    47: {
+        "ap_opettajat": "A-ryhmä: ÄI (Y166), B-ryhmä: MA (Y168)",
+        "ip1_opettajat": "A-ryhmä: Digi (Y168), B-ryhmä: ÄI (Y166)",
+        "ip2_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: RU (Y203)"
+    },
+    48: {
+        "ap_opettajat": "A-ryhmä: ÄI (Y166), B-ryhmä: RU (Y203)",
+        "ip1_opettajat": "A-ryhmä: RU (Y203), B-ryhmä: MA (Y168)",
+        "ip2_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: EN (Y203)"
+    },
+    49: {
+        "ap_opettajat": "A-ryhmä: RU (Y203), B-ryhmä: ÄI (Y166)",
+        "ip1_opettajat": "A-ryhmä: MA (Y166), B-ryhmä: RU (Y203)",
+        "ip2_opettajat": "A-ryhmä: EN (Y203), B-ryhmä: MA (Y168)"
+    },
+    50: {
+        "ap_opettajat": "A-ryhmä: ÄI (Y166), B-ryhmä: RU (Y203)",
+        "ip1_opettajat": "A-ryhmä: RU (Y203), B-ryhmä: MA (Y168)",
+        "ip2_opettajat": "A-ryhmä: MA (Y168), B-ryhmä: EN (Y203)"
+    },
+    51: {
+        "ap_opettajat": "?",
+        "ip1_opettajat": "?",
+        "ip2_opettajat": "?"
+    },
+};
+
 const NYO_SCHEDULE = {
     "ap_kello": "9:30 - 11:30",
     "ruokailu_kello": "11:30 - 12:30",

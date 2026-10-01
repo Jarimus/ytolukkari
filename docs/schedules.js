@@ -19,6 +19,9 @@ function setH1(params) {
         case "nyo":
             h1.textContent = "Nyo";
             break
+        case "sote_lessons":
+            h1.textContent = "Sote (oppitunnit)";
+            break;
         default:
             window.location = "index.html";
             break;
@@ -47,6 +50,9 @@ function setSchedule(params) {
             break;
         case "nyo":
             scheduleData = NYO_SCHEDULE;
+            break
+        case "sote_lessons":
+            scheduleData = SOTE_LESSONS_SCHEDULE;
             break
         default:
             window.location = "index.html";

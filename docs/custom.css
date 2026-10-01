@@ -1,0 +1,28 @@
+body>header {
+  padding: 0 0 0 0;
+}
+
+body>header h1 {
+  margin: 0.5rem auto;
+}
+
+body>header>:only-child {
+  margin-block-start: 0;
+}
+
+p {
+    text-align: center;
+    margin: 6px 0;
+}
+
+#schedule_table {
+    margin: 0 auto;
+}
+
+#valinta_container {
+  text-align: center;
+}
+
+#pvm {
+    text-align: center;
+}
